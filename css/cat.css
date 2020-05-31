@@ -74,6 +74,7 @@
   /* top: 10px; */
   width: 820px;
   height: 60px;
+  margin-top: 63.5px;
   /* margin-right: 800px; */
   /* background-color: black; */
 }
@@ -83,7 +84,7 @@
   right: 0px;
   width: 820px;
   height: 60px;
-  margin-top: 59px;
+  margin-top: 120px;
 }
 
 .Button1 {
@@ -105,13 +106,27 @@
   margin-top: 25px;
 }
 
+#Transfiguration2{
+  position: absolute;
+  right: 25px;
+  margin-top: 2px;
+  width: 795px;
+  height: 60px;
+  /* margin-left: 20px; */
+  /* margin-right: 100px; */
+  border-radius: 20px;
+  background-color: violet;
+  font-size: 25px;
+}
+
 .cat {
-  width: 282px;
+  width: 432px;
   height: 512px;
-  background-image: url("../img/timg9.png");
+  background-image: url("../img/55.png");
   /* background-image: no-repeat; */
   /* float: left; */
   margin-top: 127px;
+  margin-left: -50px;
 }
 
 #cat2 {
@@ -129,7 +144,7 @@
   /* height: 300px; */
   background-image: url("../img/timg9.png");
   margin-top: 127px;
-  margin-left: -120px;
+  /* margin-left: -80px; */
 }
 
 #cat4 {
@@ -155,4 +170,11 @@
   background-image: url("../img/凤舞九天.jpg");
   margin-top: 127px;
   margin-left: -120px;
+}
+
+#cat7{
+  width: 622px;
+  height: 512px;
+  background-image: url("../img/33.gif");
+  margin-left: -150px;
 }

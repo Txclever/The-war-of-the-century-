@@ -285,6 +285,18 @@ function DogCheckPicture4() {
     console.log(DogPicture)
   }, 1000)
 };
+function DogCheckPicture5() {
+  let plus = setInterval(function () {
+    DogPicture.setAttribute("id", "dog7");
+    console.log(DogPicture)
+  }, 100);
+  let reduce = setTimeout(function () {
+    DogPicture.removeAttribute("id");
+    DogPicture.setAttribute("class", "dog3");
+    clearInterval(plus);
+    console.log(DogPicture)
+  }, 2500)
+};
 // let dogstatus =  document.getElementById("status");
 // // console.log(dogstatus)
 // dogstatus.innerHTML = dog.tellstatus();

@@ -253,6 +253,18 @@ function CatCheckPicture4() {
     console.log(CatPicture)
   }, 1000)
 };
+function CatCheckPicture5() {
+  let pluss = setInterval(function () {
+    CatPicture.setAttribute("id", "cat7");
+    console.log(CatPicture)
+  }, 100);
+  let reduce = setTimeout(function () {
+    CatPicture.removeAttribute("id");
+    CatPicture.setAttribute("class", "cat3");
+    clearInterval(pluss);
+    console.log(CatPicture)
+  }, 4000)
+};
 // let fire = 600;
 // let life = document.getElementById("haeS2");
 

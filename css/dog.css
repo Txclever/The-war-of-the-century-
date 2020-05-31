@@ -104,7 +104,15 @@
   background-color: violet;
   border-radius: 20px;
   margin-top: 25px;
+}
 
+#Transfiguration{
+  width: 795px;
+  height: 60px;
+  margin-left: 20px;
+  border-radius: 20px;
+  background-color: violet;
+  font-size: 25px;
 }
 
 #Dogstatus {
@@ -122,7 +130,7 @@
   width: 570px;
   height: 512px;
   /* height: 300px; */
-  background-image: url("../img/timg8.png");
+  background-image: url("../img/timg2.png");
   margin-top: 127px;
   margin-left: 120px;
   /* background-color: black; */
@@ -168,4 +176,10 @@
   background-image: url("../img/大威天龙.jpg");
   margin-top: 127px;
   margin-left: 260px;
+}
+
+#dog7{
+  width: 622px;
+  height: 512px;
+  background-image: url("../img/11.gif");
 }
