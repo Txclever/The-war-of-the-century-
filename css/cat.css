@@ -1,0 +1,158 @@
+.catdiv2 {
+  width: 600px;
+  height: 555px;
+  /* background-color: black; */
+  float: left;
+  position: absolute;
+  right: 10px;
+}
+
+/* .catPic2{
+  position: absolute;
+} */
+.catHead {
+  width: 127px;
+  height: 128px;
+  /* position: absolute; */
+  float: right;
+}
+
+#speakT {
+  position: absolute;
+  /* left: 1050px; */
+  right: 7.25%;
+  top: 90px;
+  width: 180px;
+  height: 20px;
+  border: 1px solid red;
+  border-radius: 50px;
+  background-color: #ffff;
+  padding-left: 130px;
+  /* padding-right:  200px; */
+  /* line-height: -20px; */
+  z-index: 999;
+  /* float: left; */
+}
+
+#haeS2Box {
+  position: absolute;
+  top: 39px;
+  right: 127px;
+  width: 700px;
+  height: 30px;
+  border-radius: 50px;
+  border: 5px solid blue;
+  /* float: left; */
+}
+
+#haeS2 {
+  /* position: absolute; */
+  /* top: 54px;
+  right: 127px; */
+  width: 700px;
+  height: 28px;
+  margin-top: 1px;
+  background: red;
+  border-radius: 50px;
+}
+
+#Catstatus {
+  position: relative;
+  width: 640px;
+  height: 20px;
+  background-color: #fff;
+  top: 18px;
+  right: 230px;
+  border-radius: 50px;
+  border: 1px solid red;
+  padding-left: 60px;
+}
+
+#ButtonAll3 {
+  position: absolute;
+  right: 0px;
+  /* top: 10px; */
+  width: 820px;
+  height: 60px;
+  /* margin-right: 800px; */
+  /* background-color: black; */
+}
+
+#ButtonAll4 {
+  position: absolute;
+  right: 0px;
+  width: 820px;
+  height: 60px;
+  margin-top: 59px;
+}
+
+.Button1 {
+  /* position: absolute; */
+  margin-top: 25px;
+  width: 155px;
+  height: 60px;
+  background-color: violet;
+  border-radius: 20px;
+}
+
+#Button2 {
+  /* position: absolute; */
+  margin-top: 30px;
+  width: 195px;
+  height: 60px;
+  background-color: violet;
+  border-radius: 20px;
+  margin-top: 25px;
+}
+
+.cat {
+  width: 282px;
+  height: 512px;
+  background-image: url("../img/timg9.png");
+  /* background-image: no-repeat; */
+  /* float: left; */
+  margin-top: 127px;
+}
+
+#cat2 {
+  width: 522px;
+  height: 512px;
+  background-image: url("../img/天外飞仙.jpg");
+  margin-top: 127px;
+  margin-left: -120px;
+  /* margin-right: 600px; */
+}
+
+.cat3 {
+  width: 282px;
+  height: 512px;
+  /* height: 300px; */
+  background-image: url("../img/timg9.png");
+  margin-top: 127px;
+  margin-left: -120px;
+}
+
+#cat4 {
+  width: 512px;
+  height: 512px;
+  background-image: url("../img/三阴蜈蚣抓.jpg");
+  margin-top: 127px;
+  margin-left: -120px;
+}
+
+#cat5 {
+  width: 512px;
+  height: 512px;
+  background-image: url("../img/打狗棍法.jpg");
+  margin-top: 127px;
+  margin-left: -120px;
+}
+
+#cat6 {
+  /* margin-left: 250px; */
+  width: 522px;
+  height: 512px;
+  background-image: url("../img/凤舞九天.jpg");
+  margin-top: 127px;
+  margin-left: -120px;
+}

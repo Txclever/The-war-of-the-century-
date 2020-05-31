@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/dog.css">
+  <link rel="stylesheet" href="./css/cat.css">
+  <link rel="stylesheet" href="./css/total.css">
+  <style>
+    /* .BattleBox {
+      background-image: url("./img/三阴蜈蚣抓.jpg");
+    } */
+  </style>
+</head>
+
+<body>
+  <!-- 总大小 -->
+  <div id="total">
+    <!-- 狗 -->
+    <div id="speak">汪汪汪！！！</div>
+    <div class="dogdiv">
+      <img class="dogHead" src="./img/狗头.png" alt="">
+      <!-- dog血条 -->
+      <div id="haeSBox">
+        <div id="haeS"></div>
+      </div>
+      <div id="Dogstatus"></div>
+      <div id="dogPic"></div>
+      <div id="ButtonAll1">
+        <button id="Feed" class="Button0" onclick="dog.feed()">喂它！</button>
+        <button id="Run" class="Button0" onclick="dog.run()">跑起来!</button>
+        <button id="resurgence" class="Button0" onclick="dog.resurgence()">请购买复活甲！</button>
+        <button id="replymana" class="Button0" onclick="dog.replymana()">回蓝</button>
+        <button id="replymana" class="Button0" onclick="dog.replyhealthPoint()">回血</button>
+      </div>
+      </br>
+      <div id="ButtonAll2">
+        <button id="Button1" onclick="dog.Dogfire1()">龙象般若</button>
+        <button id="Button1" onclick="dog.Dogfire2()">混元霹雳</button>
+        <button id="Button1" onclick="dog.Dogfire3()">波爷把妈哄</button>
+        <button id="Button1" onclick="dog.Dogfire4()">大威天龙</button>
+      </div>
+
+    </div>
+
+    <!-- 猫 -->
+    <div id="speakT">！！！喵喵喵</div>
+    <div class="catdiv2">
+      <img class="catHead" src="./img/猫头.png" alt="">
+      <!-- cat血条 -->
+      <div id="haeS2Box">
+        <div id="haeS2"></div>
+      </div>
+      <div id="Catstatus"></div>
+      <div id="catPic2"></div>
+      <div id="ButtonAll3">
+        <button id="Feed" class="Button1" onclick="cat.feed2()">喂它！</button>
+        <button id="Run" class="Button1" onclick="cat.run2()">跑起来!</button>
+        <button id="resurgence" class="Button1" onclick="cat.resurgence2()">请购买复活甲！</button>
+        <button id="replymana" class="Button1" onclick="cat.replymana()">回蓝</button>
+        <button id="replymana" class="Button1" onclick="cat.replyhealthPoint()">回血</button>
+      </div>
+
+      </br>
+      <div id="ButtonAll4">
+        <button id="Button2" onclick="cat.Catfire1()">天外飞仙</button>
+        <button id="Button2" onclick="cat.Catfire2()">三阴蜈蚣抓</button>
+        <button id="Button2" onclick="cat.Catfire3()">打狗棍法</button>
+        <button id="Button2" onclick="cat.Catfire4()">凤舞九天</button>
+      </div>
+    </div>
+    <div id="vs">
+      <img src="./img/VS.png" alt="">
+    </div>
+  </div>
+  <!-- 招式框 -->
+  <!-- <div class="BattleBox"></div> -->
+  <script src="./js/Dog.js"></script>
+  <script src="./js/Cat.js"></script>
+</body>
+
+</html>
